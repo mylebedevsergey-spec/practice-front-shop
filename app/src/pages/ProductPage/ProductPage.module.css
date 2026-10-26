@@ -1,0 +1,15 @@
+.wrap { padding-top: 24px; }
+.back { color: var(--accent); font-weight: 600; font-size: 14px; }
+.layout { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; margin-top: 16px; align-items: start; }
+.media { border-radius: 20px; overflow: hidden; background: #e9f0e6; aspect-ratio: 4/3; }
+.media img { width: 100%; height: 100%; object-fit: cover; }
+.info h1 { font-size: 32px; }
+.prices { display: flex; align-items: baseline; gap: 12px; margin: 14px 0 18px; }
+.price { font-size: 30px; font-weight: 800; }
+.old { color: var(--muted); text-decoration: line-through; font-size: 18px; }
+.badge { background: rgba(210,74,53,.12); color: var(--sale); border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 700; }
+.description { color: #45584a; line-height: 1.6; }
+.add { margin-top: 10px; padding: 14px 26px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; }
+.muted { color: var(--muted); }
+.error { color: var(--sale); }
+@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }

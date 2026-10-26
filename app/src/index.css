@@ -1,0 +1,21 @@
+:root {
+  --bg: #f4f7f1;
+  --surface: #ffffff;
+  --ink: #1b2a20;
+  --muted: #6c7c6f;
+  --line: #e0e7db;
+  --accent: #2f7d4f;
+  --accent-dark: #215c39;
+  --sale: #d24a35;
+  --radius: 14px;
+  font-family: 'Montserrat', 'Segoe UI', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: 0; }
+h1, h2, h3, p { margin: 0 0 10px; }
+.container { width: min(1180px, 100%); margin: 0 auto; padding: 0 20px; }

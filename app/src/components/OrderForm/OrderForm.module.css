@@ -1,0 +1,9 @@
+.form { display: grid; gap: 12px; background: var(--surface); padding: 24px; border-radius: var(--radius); box-shadow: 0 8px 24px rgba(27,42,32,.08); align-content: start; }
+.field { display: grid; gap: 5px; font-size: 14px; font-weight: 600; }
+.field input, .field textarea { padding: 11px 13px; border: 1px solid var(--line); border-radius: 10px; font: inherit; }
+.error { color: var(--sale); font-size: 12px; font-style: normal; }
+.total { font-size: 18px; }
+.form button { padding: 13px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; }
+.form button:disabled { opacity: .6; cursor: not-allowed; }
+.ok { color: var(--accent); font-weight: 600; }
+.fail { color: var(--sale); font-weight: 600; }

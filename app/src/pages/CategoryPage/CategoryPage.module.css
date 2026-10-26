@@ -1,0 +1,4 @@
+.wrap { padding-top: 26px; }
+.back { color: var(--accent); font-weight: 600; font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; margin-top: 16px; }
+.muted { color: var(--muted); }

@@ -1,0 +1,15 @@
+.wrap { padding-top: 26px; }
+.layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start; margin-top: 14px; }
+.list { display: grid; gap: 12px; }
+.row { display: grid; grid-template-columns: 72px 1fr auto auto auto; gap: 14px; align-items: center; background: var(--surface); border-radius: 14px; padding: 12px; box-shadow: 0 6px 18px rgba(27,42,32,.06); }
+.thumb { width: 72px; height: 56px; object-fit: cover; border-radius: 10px; }
+.rowInfo { display: grid; gap: 4px; }
+.title { font-weight: 600; font-size: 15px; }
+.price { color: var(--muted); font-size: 14px; }
+.counter { display: inline-flex; align-items: center; gap: 8px; }
+.counter button { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line); background: #fff; }
+.sum { font-weight: 700; white-space: nowrap; }
+.remove { background: none; color: var(--sale); font-size: 16px; }
+.totalRow { display: flex; justify-content: space-between; padding: 14px 6px; font-size: 20px; }
+.empty { color: var(--muted); padding: 20px 0; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .row { grid-template-columns: 60px 1fr auto; row-gap: 8px; } }
